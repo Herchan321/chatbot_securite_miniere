@@ -1,0 +1,251 @@
+{
+  "incidents": [
+    "Éboulement ou effondrement de parois",
+    "Accident avec engin de chantier",
+    "Électrocution ou contact électrique",
+    "Explosion de gaz ou vapeurs",
+    "Incendie sur équipement",
+    "Chute de hauteur",
+    "Intoxication par produits chimiques",
+    "Accident de tir de mine (dynamitage)",
+    "Écrasement par chute d'objet",
+    "Accident de manutention",
+    "Noyade dans bassin de décantation",
+    "Blessure par projection de débris",
+    "Accident de transport interne",
+    "Fuite de produit chimique",
+    "Défaillance d'équipement de sécurité",
+    "Accident dans convoyeur",
+    "Brûlure chimique ou thermique",
+    "Asphyxie en espace confiné",
+    "Collision d'engins",
+    "Blessure par outil ou machine"
+  ],
+
+  "zones": [
+    "Front de taille",
+    "Aire de stockage explosifs",
+    "Station de concassage primaire",
+    "Station de concassage secondaire",
+    "Convoyeurs principaux",
+    "Atelier de maintenance",
+    "Station de lavage et flottation",
+    "Bassin de décantation",
+    "Zone de stockage produits chimiques",
+    "Poste de transformation électrique",
+    "Laboratoire d'analyse",
+    "Zone de chargement camions",
+    "Aire de stockage carburants",
+    "Station de pompage",
+    "Bureau de contrôle dynamitage",
+    "Parc à engins",
+    "Station de traitement des eaux",
+    "Zone de stockage matières premières",
+    "Poste de pesage",
+    "Infirmerie"
+  ],
+
+  "consignes_generales": [
+    "Porter obligatoirement casque, chaussures de sécurité et gilet haute visibilité",
+    "Respecter la signalisation et les zones balisées",
+    "Interdiction formelle de fumer dans l'enceinte du site",
+    "Signaler immédiatement tout incident ou situation dangereuse",
+    "Utiliser uniquement les équipements de protection individuelle fournis",
+    "Respecter les procédures de consignation avant intervention",
+    "Maintenir une distance de sécurité avec les engins en mouvement",
+    "Vérifier l'état des équipements avant utilisation",
+    "Se présenter au poste de garde pour autorisation d'accès",
+    "Respecter les horaires de tir et les zones d'évacuation",
+    "Utiliser les passerelles et chemins balisés uniquement",
+    "Interdiction d'accès aux zones non autorisées",
+    "Respecter les consignes de stockage des produits dangereux",
+    "Participer aux exercices de sécurité obligatoires",
+    "Maintenir la propreté et l'ordre sur le poste de travail",
+    "Utiliser les équipements de communication en permanence",
+    "Respecter les vitesses limites sur site",
+    "Signaler les fuites ou épandages de produits",
+    "Interdiction de travailler seul en zone à risque",
+    "Consulter les fiches de données de sécurité avant manipulation"
+  ],
+
+  "reponses_incidents": {
+    "Éboulement ou effondrement de parois": {
+      "description": "Chute de terre, roches ou matériaux depuis les parois de la fosse ou des talus",
+      "signes_visibles": [
+        "Fissures apparentes sur les parois",
+        "Chute de petites pierres",
+        "Déformation du terrain",
+        "Présence d'eau d'infiltration"
+      ],
+      "consignes": [
+        "Évacuer immédiatement la zone dangereuse",
+        "Alerter le responsable de secteur et la sécurité",
+        "Interdire l'accès à la zone jusqu'à inspection",
+        "Vérifier l'absence de victimes ensevelies",
+        "Faire intervenir un géotechnicien pour évaluation"
+      ]
+    },
+    "Accident avec engin de chantier": {
+      "description": "Collision, écrasement ou blessure impliquant un véhicule lourd ou engin de terrassement",
+      "signes_visibles": [
+        "Engin endommagé ou renversé",
+        "Présence de blessés",
+        "Fuite de fluides hydrauliques",
+        "Déformation de structures"
+      ],
+      "consignes": [
+        "Arrêter immédiatement tous les engins dans la zone",
+        "Prodiguer les premiers secours si nécessaire",
+        "Alerter les secours et l'infirmerie",
+        "Sécuriser la zone et baliser le périmètre",
+        "Ne pas déplacer les engins avant enquête"
+      ]
+    },
+    "Électrocution ou contact électrique": {
+      "description": "Contact direct ou indirect avec une source électrique provoquant un choc électrique",
+      "signes_visibles": [
+        "Victime inconsciente ou convulsions",
+        "Brûlures visibles sur la peau",
+        "Odeur de brûlé",
+        "Équipement électrique endommagé"
+      ],
+      "consignes": [
+        "Couper l'alimentation électrique avant intervention",
+        "Ne pas toucher la victime si elle est encore sous tension",
+        "Alerter immédiatement les secours médicaux",
+        "Commencer la réanimation si la victime ne respire pas",
+        "Consigner l'installation électrique défaillante"
+      ]
+    },
+    "Explosion de gaz ou vapeurs": {
+      "description": "Déflagration causée par l'inflammation de gaz combustibles ou vapeurs chimiques",
+      "signes_visibles": [
+        "Déflagration audible",
+        "Projection de débris",
+        "Incendie secondaire",
+        "Victimes avec brûlures"
+      ],
+      "consignes": [
+        "Évacuer immédiatement tous les personnels",
+        "Alerter les pompiers et services d'urgence",
+        "Couper les sources d'énergie si possible",
+        "Établir un périmètre de sécurité large",
+        "Recenser le personnel et vérifier les absents"
+      ]
+    },
+    "Incendie sur équipement": {
+      "description": "Combustion non contrôlée sur machine, installation ou véhicule",
+      "signes_visibles": [
+        "Flammes visibles",
+        "Fumée épaisse",
+        "Odeur de brûlé",
+        "Température élevée anormale"
+      ],
+      "consignes": [
+        "Donner l'alarme incendie immédiatement",
+        "Utiliser les extincteurs adaptés au type de feu",
+        "Évacuer la zone si le feu n'est pas maîtrisable",
+        "Couper les alimentations électriques et carburant",
+        "Attendre les pompiers si l'incendie s'étend"
+      ]
+    },
+    "Chute de hauteur": {
+      "description": "Chute d'une personne depuis une plateforme, échelle ou structure élevée",
+      "signes_visibles": [
+        "Personne au sol après chute",
+        "Équipement de protection endommagé",
+        "Fractures visibles",
+        "Perte de connaissance"
+      ],
+      "consignes": [
+        "Ne pas déplacer la victime sauf danger imminent",
+        "Alerter immédiatement l'infirmerie et les secours",
+        "Vérifier les fonctions vitales de la victime",
+        "Couvrir et rassurer la victime",
+        "Préserver la zone de chute pour l'enquête"
+      ]
+    },
+    "Intoxication par produits chimiques": {
+      "description": "Empoisonnement par inhalation, ingestion ou contact avec substances chimiques",
+      "signes_visibles": [
+        "Difficultés respiratoires",
+        "Irritation des yeux et de la peau",
+        "Nausées ou vomissements",
+        "Altération de l'état de conscience"
+      ],
+      "consignes": [
+        "Éloigner la victime de la source de contamination",
+        "Rincer abondamment les zones de contact à l'eau",
+        "Identifier le produit chimique en cause",
+        "Alerter les secours avec la fiche de données de sécurité",
+        "Administrer l'oxygène si disponible"
+      ]
+    },
+    "Accident de tir de mine (dynamitage)": {
+      "description": "Incident lors des opérations de dynamitage ou projection de débris",
+      "signes_visibles": [
+        "Explosion prématurée ou ratée",
+        "Projection de roches hors zone",
+        "Blessures par éclats",
+        "Dégâts aux structures"
+      ],
+      "consignes": [
+        "Maintenir l'évacuation de la zone de tir",
+        "Attendre le délai de sécurité avant inspection",
+        "Vérifier l'état des charges non explosées",
+        "Alerter le responsable des tirs",
+        "Interdire l'accès jusqu'à neutralisation complète"
+      ]
+    },
+    "Fuite de produit chimique": {
+      "description": "Épandage accidentel de substances chimiques liquides ou solides",
+      "signes_visibles": [
+        "Flaque ou épandage visible",
+        "Odeur chimique forte",
+        "Vapeurs ou fumées",
+        "Contenants endommagés"
+      ],
+      "consignes": [
+        "Identifier le produit chimique concerné",
+        "Évacuer la zone selon le sens du vent",
+        "Utiliser les kits d'absorption appropriés",
+        "Porter les équipements de protection chimique",
+        "Alerter les services environnement et sécurité"
+      ]
+    },
+    "Asphyxie en espace confiné": {
+      "description": "Manque d'oxygène ou présence de gaz toxiques dans un espace restreint",
+      "signes_visibles": [
+        "Victime inconsciente dans l'espace confiné",
+        "Difficultés respiratoires",
+        "Coloration anormale de la peau",
+        "Détecteur de gaz en alarme"
+      ],
+      "consignes": [
+        "Ne jamais pénétrer sans équipement respiratoire",
+        "Alerter immédiatement l'équipe de sauvetage",
+        "Ventiler l'espace si possible depuis l'extérieur",
+        "Évacuer la victime avec appareil respiratoire autonome",
+        "Commencer la réanimation dès la sortie"
+      ]
+    }
+  },
+
+  "contacts_urgence": {
+    "Responsable Sécurité": "2001",
+    "Infirmerie": "2015",
+    "Pompiers internes": "2018",
+    "Chef de poste": "2005",
+    "Responsable maintenance": "2012",
+    "Sécurité environnement": "2020",
+    "Responsable dynamitage": "2008",
+    "Dispatching": "2000",
+    "Responsable transport": "2010",
+    "Laboratoire": "2025",
+    "Poste de garde": "2002",
+    "Responsable électricité": "2013",
+    "Chef d'exploitation": "2003",
+    "Responsable géotechnique": "2009",
+    "Services externes urgence": "2199"
+  }
+}

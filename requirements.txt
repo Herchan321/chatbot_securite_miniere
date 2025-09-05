@@ -1,0 +1,10 @@
+streamlit
+chromadb
+langchain
+langchain-community
+langchainhub
+python-dotenv
+pypdf
+jq
+
+
